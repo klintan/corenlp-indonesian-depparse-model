@@ -1,0 +1,1 @@
+java -classpath ./stanford-corenlp-full/stanford-corenlp-3.8.0.jar edu.stanford.nlp.parser.nndep.DependencyParser -trainFile indonesian-train.conllu -devFile indonesian-dev.conllu -embedFile indonesian.word2vec.model.txt -embeddingSize 50 -model indonesian.nndep.model.txt.gz
